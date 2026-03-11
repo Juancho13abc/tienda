@@ -1,35 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Moderna Store
 
-# Run and deploy your AI Studio app
+Plataforma de comercio electrónico moderna construida con Angular 21, Tailwind CSS y Angular Material.
 
-This contains everything you need to run your app locally.
+## Ejecutar localmente
 
-View your app in AI Studio: https://ai.studio/apps/4a724318-7540-4ae7-92dd-db29acf14b4f
+**Requisitos:** Node.js
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Instalar dependencias:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Iniciar el servidor de desarrollo:
    `npm run dev`
 
-## Deploy to GitHub Pages
+## Despliegue en GitHub Pages
 
-This repo includes an automatic deploy workflow in `.github/workflows/deploy-pages.yml`.
-
-1. Push your code to the `main` branch.
-2. In GitHub, go to `Settings > Pages`.
-3. Set `Source` to `GitHub Actions`.
-4. Wait for the workflow `Deploy Angular to GitHub Pages` to finish.
-5. Your site will be available at:
-   `https://<your-username>.github.io/<your-repository-name>/`
-
-Notes:
-- The workflow builds the app and publishes `dist/app/browser`.
-- A `404.html` fallback is generated automatically for client-side routes.
+1. Hacer push a la rama `main`.
+2. En GitHub, ir a `Settings > Pages`.
+3. Configurar `Source` como `GitHub Actions`.
+4. El sitio estará disponible en:
+   `https://juancho13abc.github.io/tienda/`
